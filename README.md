@@ -36,4 +36,29 @@ Left panel: image preview
 Right panel: prediction + confidence(%)
 
 ### Enjoy using the Retina Cataract Detection System!
+## This is the model's metrics
+ Classes: ['cataract', 'normal']
+ 
+Overall metrics on test set:
+ Accuracy : 0.8901
+ Precision: 0.8913
+ Recall   : 0.8913
+ F1 score : 0.8913
+
+Classification report:
+```
+              precision    recall  f1-score   support
+
+    cataract       0.89      0.89      0.89        45
+      normal       0.89      0.89      0.89        46
+
+    accuracy                           0.89        91
+   macro avg       0.89      0.89      0.89        91
+weighted avg       0.89      0.89      0.89        91
+```
+### Confusion Matrix
+<img width="436" height="390" alt="image" src="https://github.com/user-attachments/assets/ac99c241-c3a0-4628-8e78-24f3065d223a" />
+
+### ROC Curve
+<img width="536" height="470" alt="image" src="https://github.com/user-attachments/assets/57741d2b-40e3-420a-b8c7-04ce5348e9d3" />
 

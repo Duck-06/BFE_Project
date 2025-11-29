@@ -36,7 +36,7 @@ Left panel: image preview
 Right panel: prediction + confidence(%)
 
 ### Enjoy using the Retina Cataract Detection System!
-## This is the model's metrics
+## 📊 This is the model's metrics
  Classes: ['cataract', 'normal']
  
 Overall metrics on test set:
